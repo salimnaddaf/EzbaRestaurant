@@ -1,6 +1,20 @@
+<?php
+
+$name = $_POST['name'];
+
+$visitor_email = $_POST['email'];
+
+$message = $_POST['message'];
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
+<link rel = "icon"
+href = "images/semel12.png"
+type="image/png">
   <head>
+
     <title>Ezba Restaurant</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -40,6 +54,7 @@
             <li class="nav-item"><a href="#section-news" class="nav-link">News</a></li>
             <li class="nav-item"><a href="#section-gallery" class="nav-link">Gallery</a></li>
             <li class="nav-item"><a href="#section-contact" class="nav-link">Contact</a></li>
+              <li class="nav-item"><a href="admin.html" class="nav-link">LogIn</a></li>
           </ul>
         </div>
       </div>
@@ -100,7 +115,7 @@
                 <div class="media d-block mb-4 text-center site-media site-animate border-0">
                   <img src="images/mlo5ia12.jpg" alt="Free Template by colorlib.com" class="img-fluid">
                   <div class="media-body p-md-5 p-4">
-                    <h5 class="text-primary">35</h5>
+                    <h5 class="text-primary"> 35 points</h5>
                     <h5 class="mt-0 h4">מלוכיה</h5>
                     <p class="mb-4">תבשיל זה כולל את עלי המלוכיה אשר מבושלים על בסיס ציר עוף ביחד עם שום ומוגשים בתוספת אורז בצד.</p>
 
@@ -113,7 +128,7 @@
                 <div class="media d-block mb-4 text-center site-media site-animate border-0">
                   <img src="images/bamia12.jpg" alt="Free Template by colorlib.com" class="img-fluid">
                   <div class="media-body p-md-5 p-4">
-                    <h5 class="text-primary">40</h5>
+                    <h5 class="text-primary"> 35 points</h5>
                     <h5 class="mt-0 h4">תבשיל באמיה </h5>
                     <p class="mb-4">אצבעות באמיה מטוגנות ומבושלות ברוטב עגבניות ומגיעות עם אורז לבן ואטריות.</p>
 
@@ -126,7 +141,7 @@
                 <div class="media d-block mb-4 text-center site-media site-animate border-0">
                   <img src="images/3akob12.jpg" alt="Free Template by colorlib.com" class="img-fluid">
                   <div class="media-body p-md-5 p-4">
-                    <h5 class="text-primary">45</h5>
+                    <h5 class="text-primary"> 35 points</h5>
                     <h5 class="mt-0 h4">עכובית גלגל</h5>
                     <p class="mb-4">קוץ בר שמורידים לו את הקוצים ומבשלים את זה עם גרגרי חומוס ובצל. מוגש עם אורז בצד.</p>
 
@@ -139,7 +154,7 @@
                 <div class="media d-block mb-4 text-center site-media site-animate border-0">
                   <img src="images/mlo5ia12.jpg" alt="Free Template by colorlib.com" class="img-fluid">
                   <div class="media-body p-md-5 p-4">
-                    <h5 class="text-primary">35</h5>
+                    <h5 class="text-primary"> 35 points</h5>
                     <h5 class="mt-0 h4">מלוכיה</h5>
                     <p class="mb-4">תבשיל זה כולל את עלי המלוכיה אשר מבושלים על בסיס ציר עוף ביחד עם שום ומוגשים בתוספת אורז בצד.</p>
 
@@ -152,7 +167,7 @@
                 <div class="media d-block mb-4 text-center site-media site-animate border-0">
                   <img src="images/bamia12.jpg" alt="Free Template by colorlib.com" class="img-fluid">
                   <div class="media-body p-md-5 p-4">
-                    <h5 class="text-primary">40</h5>
+                    <h5 class="text-primary"> 35 points</h5>
                     <h5 class="mt-0 h4">תבשיל באמיה </h5>
                     <p class="mb-4">אצבעות באמיה מטוגנות ומבושלות ברוטב עגבניות ומגיעות עם אורז לבן ואטריות.</p>
 
@@ -165,7 +180,7 @@
                 <div class="media d-block mb-4 text-center site-media site-animate border-0">
                   <img src="images/3akob12.jpg" alt="Free Template by colorlib.com" class="img-fluid">
                   <div class="media-body p-md-5 p-4">
-                    <h5 class="text-primary">45</h5>
+                    <h5 class="text-primary"> 35 points</h5>
                     <h5 class="mt-0 h4">עכובית גלגל</h5>
                     <p class="mb-4">קוץ בר שמורידים לו את הקוצים ומבשלים את זה עם גרגרי חומוס ובצל. מוגש עם אורז בצד.</p>
 
@@ -178,7 +193,7 @@
                 <div class="media d-block mb-4 text-center site-media site-animate border-0">
                   <img src="images/mlo5ia12.jpg" alt="Free Template by colorlib.com" class="img-fluid">
                   <div class="media-body p-md-5 p-4">
-                    <h5 class="text-primary">35</h5>
+                    <h5 class="text-primary"> 35 points</h5>
                     <h5 class="mt-0 h4">מלוכיה</h5>
                     <p class="mb-4">תבשיל זה כולל את עלי המלוכיה אשר מבושלים על בסיס ציר עוף ביחד עם שום ומוגשים בתוספת אורז בצד.</p>
 
@@ -191,7 +206,7 @@
                 <div class="media d-block mb-4 text-center site-media site-animate border-0">
                   <img src="images/bamia12.jpg" alt="Free Template by colorlib.com" class="img-fluid">
                   <div class="media-body p-md-5 p-4">
-                    <h5 class="text-primary">40</h5>
+                    <h5 class="text-primary"> 35 points</h5>
                     <h5 class="mt-0 h4">תבשיל באמיה </h5>
                     <p class="mb-4">אצבעות באמיה מטוגנות ומבושלות ברוטב עגבניות ומגיעות עם אורז לבן ואטריות.</p>
 
@@ -204,7 +219,7 @@
                 <div class="media d-block mb-4 text-center site-media site-animate border-0">
                   <img src="images/3akob12.jpg" alt="Free Template by colorlib.com" class="img-fluid">
                   <div class="media-body p-md-5 p-4">
-                    <h5 class="text-primary">45</h5>
+                    <h5 class="text-primary"> 35 points</h5>
                     <h5 class="mt-0 h4">עכובית גלגל</h5>
                     <p class="mb-4">קוץ בר שמורידים לו את הקוצים ומבשלים את זה עם גרגרי חומוס ובצל. מוגש עם אורז בצד.</p>
 
@@ -365,7 +380,7 @@
           </div>
 
           <div class="col-md-7 mb-5 site-animate">
-            <form action="mailto:ezba@restatezba.com" method="post" enctype="text/plain">
+            <form action="form-to-email.php" method="post" enctype="text/plain">
               <div class="form-group">
                 <label for="name" class="sr-only">Name</label>
                 <input type="text" class="form-control" id="name" placeholder="Name">
