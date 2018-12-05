@@ -1,13 +1,3 @@
-<?php
-
-$name = $_POST['name'];
-
-$visitor_email = $_POST['email'];
-
-$message = $_POST['message'];
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <link rel = "icon"
@@ -119,7 +109,7 @@ type="image/png">
                     <h5 class="mt-0 h4">מלוכיה</h5>
                     <p class="mb-4">תבשיל זה כולל את עלי המלוכיה אשר מבושלים על בסיס ציר עוף ביחד עם שום ומוגשים בתוספת אורז בצד.</p>
 
-                    <p class="mb-0"><a href="payment.html" class="btn btn-primary btn-sm">הזמן!</a></p>
+                    <p class="mb-0"><a href="#" class="btn btn-primary btn-sm">הזמן!</a></p>
                   </div>
                 </div>
               </div>
@@ -132,7 +122,7 @@ type="image/png">
                     <h5 class="mt-0 h4">תבשיל באמיה </h5>
                     <p class="mb-4">אצבעות באמיה מטוגנות ומבושלות ברוטב עגבניות ומגיעות עם אורז לבן ואטריות.</p>
 
-                    <p class="mb-0"><a href="payment.html" class="btn btn-primary btn-sm">הזמן!</a></p>
+                    <p class="mb-0"><a href="#" class="btn btn-primary btn-sm">הזמן!</a></p>
                   </div>
                 </div>
               </div>
@@ -145,7 +135,7 @@ type="image/png">
                     <h5 class="mt-0 h4">עכובית גלגל</h5>
                     <p class="mb-4">קוץ בר שמורידים לו את הקוצים ומבשלים את זה עם גרגרי חומוס ובצל. מוגש עם אורז בצד.</p>
 
-                    <p class="mb-0"><a href="payment.html" class="btn btn-primary btn-sm">הזמן!</a></p>
+                    <p class="mb-0"><a href="#" class="btn btn-primary btn-sm">הזמן!</a></p>
                   </div>
                 </div>
               </div>
@@ -379,27 +369,31 @@ type="image/png">
             </div>
           </div>
 
-          <div class="col-md-7 mb-5 site-animate">
-            <form action="form-to-email.php" method="post" enctype="text/plain">
-              <div class="form-group">
-                <label for="name" class="sr-only">Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Name">
-              </div>
-              <div class="form-group">
-                <label for="email" class="sr-only">Email</label>
-                <input type="text" class="form-control" id="email" placeholder="Email">
-              </div>
-              <div class="form-group">
-                <label for="message" class="sr-only">Message</label>
-                <textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Write your message"></textarea>
-              </div>
-              <div class="form-group">
-                <input type="submit" class="btn btn-primary btn-lg" value="שלח">
-              </div>
+           <div class="col-md-7 mb-5 site-animate">
+<form method="post" action="auth.php">
+  <div class="form-group">
+    <label for="name" class="sr-only">Name</label>
+    <input type="text" class="form-control" name="username" id="username" placeholder="Name">
+  </div>
 
-            </form>
+<div class="form-group">
+    <label for="email" class="sr-only">Email</label>
+    <input type="text" class="form-control" name="email" id="email" placeholder="Email">
+  </div>
 
-          </div>
+<div class="form-group">
+    <label for="phone" class="sr-only">Phone No.</label>
+    <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone Number">
+  </div>
+
+<div class="form-group">
+    <label for="message" class="sr-only">Message</label>
+    <textarea type="text" class="form-control" name="message" id="message" cols="30" rows="10"  placeholder="Write your message"></textarea>
+  </div>
+  <input type="submit" name="submit" class="btn btn-primary btn-lg" value="Submit">
+
+</form>
+  </div>
           <div class="col-md-1"></div>
           <div class="col-md-4 site-animate">
             <p><img src="images/tb12.jpg" alt="" class="img-fluid"></p>
